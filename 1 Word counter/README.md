@@ -1,0 +1,1 @@
+This script counts the frequent words in a given txt file. The inspiration for this project is from [here](https://thecleverprogrammer.com/2021/08/30/python-program-to-count-most-frequent-words-in-a-file/)

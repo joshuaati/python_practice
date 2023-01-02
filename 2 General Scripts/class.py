@@ -3,16 +3,18 @@ class Car():
         self.model = model
         self.make = make
         self.year = year
+        self.position = 0
 
     def move(self, distance: int):
-        position = 0
-        position += distance
-
-        print(f'{self.model} moved {position} km')
+        self.position += distance
+        print(f'{self.model} moved {distance} km')
+        print(f'New position {self.position} km')
 
 
 a = Car('Golf', 'VW', 2021)
-b = Car('S320', 'Mercedes', 2018)
+b = Car("C350","Benz", 2010)
 a.move(20)
-b.move(90)
+a.move(90)
+b.move(30)
+b.move(100)
 

@@ -8,7 +8,7 @@ class Car():
     def move(self, distance: int):
         self.position += distance
         print(f'{self.model} moved {distance} km')
-        print(f'New position {self.position} km')
+        print(f'New position of {self.model} is {self.position} km')
 
 
 a = Car('Golf', 'VW', 2021)

@@ -15,6 +15,8 @@ a = Car('Golf', 'VW', 2021)
 b = Car("C350","Benz", 2010)
 a.move(20)
 a.move(90)
+a.move(1000)
 b.move(30)
 b.move(100)
 
+print(a.position, 'km', '\n', b.position, 'km')
